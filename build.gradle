@@ -5,18 +5,18 @@ apply plugin: "java"
 apply plugin: "idea"
 
 wrapper {
-    gradleVersion = "2.2"
+    gradleVersion = "4.2.1"
 }
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
-    compile 'org.slf4j:slf4j-api:1.7.21'
-
-    testCompile 'junit:junit:4.12'
-    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.5.3'
     testCompile 'org.concordion:concordion:2.1.1'
+    testCompile project(':concordion-expected-to-fail-info-extension')
+}
+
+test {
+    systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
 }
