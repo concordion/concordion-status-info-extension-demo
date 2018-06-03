@@ -1,6 +1,6 @@
 # concordion-expected-to-fail-info-extension-demo
 
-This [Concordion](www.concordion.org) extension demo gives a visual exmple of what the concordion-expected-to-fail-info-extension does.
+This [Concordion](www.concordion.org) extension demo gives a visual example of what the concordion-expected-to-fail-info-extension does.
 
 
 ## Using Gradle
@@ -13,6 +13,7 @@ This [Concordion](www.concordion.org) extension demo gives a visual exmple of wh
    Import as a Gradle project. This may require additional plugins to be installed to support Gradle.
    You can then run the Gradle task 'check' under verification which will run the tests.
    The output can be found here:
-   \Users\<username>\AppData\Local\Temp\concordion\org\concordion\ext\specification
+   \Temp\concordion\org\concordion\ext\specification
+   
    The generated html file and can be opened in your browser.
-   The test should pass successfully.
+   The tests should pass successfully.

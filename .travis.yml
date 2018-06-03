@@ -1,13 +1,15 @@
+sudo: false  # update to latest Travis CI build infrastructure
+
 language: java
 jdk:
   - oraclejdk8
+  - oraclejdk9
 
 before_install:
  - chmod +x gradlew
 
 script:
-  - jdk_switcher use openjdk8
-  - ./gradlew clean check
+  - ./gradlew clean javadoc check
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
