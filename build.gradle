@@ -8,7 +8,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 wrapper {
-    gradleVersion = "4.2.1"
+    gradleVersion = "4.8.1"
 }
 
 repositories {
@@ -16,10 +16,12 @@ repositories {
 }
 
 dependencies {
-    testCompile 'org.concordion:concordion:2.1.1'
+    testCompile 'org.concordion:concordion:2.2.0'
+    // testCompile 'org.concordion:concordion-expected-to-fail-info-extension:+'
     testCompile project(':concordion-expected-to-fail-info-extension')
 }
 
 test {
     systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
+    testLogging.showStandardStreams = true
 }
