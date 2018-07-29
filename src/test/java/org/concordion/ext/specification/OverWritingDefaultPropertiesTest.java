@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(ConcordionRunner.class)
-@Extensions({ExpectedToFailInfoExtension.class})
+// TODO This seems annotation and added @Extension on the same calss, cause the Extension to get called twice
+//@Extensions({ExpectedToFailInfoExtension.class})
 public class OverWritingDefaultPropertiesTest {
 
     private int totalAmount = 0;
