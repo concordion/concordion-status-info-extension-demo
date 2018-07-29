@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(ConcordionRunner.class)
 @Extensions({ExpectedToFailInfoExtension.class})
-public class overWritingDefaultPropertiesTest {
+public class OverWritingDefaultPropertiesTest {
 
     private int totalAmount = 0;
     private int totalSpent = 0;
