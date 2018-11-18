@@ -1,2 +1,1 @@
 rootProject.name='concordion-expected-to-fail-info-extension-demo'
-includeFlat 'concordion-expected-to-fail-info-extension'

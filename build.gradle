@@ -7,18 +7,13 @@ apply plugin: "idea"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-wrapper {
-    gradleVersion = "4.8.1"
-}
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     testCompile 'org.concordion:concordion:2.2.0'
-    // testCompile 'org.concordion:concordion-expected-to-fail-info-extension:+'
-    testCompile project(':concordion-expected-to-fail-info-extension')
+    testCompile 'org.concordion:concordion-expected-to-fail-info-extension:+'
 }
 
 test {
