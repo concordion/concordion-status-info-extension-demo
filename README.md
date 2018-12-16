@@ -1,6 +1,6 @@
-# concordion-expected-to-fail-info-extension-demo
+# concordion-status-info-extension-demo
 
-This [Concordion](www.concordion.org) extension demo gives a visual example of what the concordion-expected-to-fail-info-extension does.
+This [Concordion](www.concordion.org) extension demo gives a visual example of what the concordion-status-info-extension does.
 
 
 ## Using [Gradle](www.gradle.org)
