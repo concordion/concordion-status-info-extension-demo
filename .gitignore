@@ -24,16 +24,17 @@ hs_err_pid*
 *.iml
 *.ipr
 *.iws
-<<<<<<< HEAD
 .idea/
 out/
 build/
-=======
+
+# Intellij Idea files
 .idea
 
 # Gradle files
 .gradle
 
+# Other build Files
 build/
 out/
->>>>>>> be9944d90a66fa972b1b0415475640db6606f50c
+
