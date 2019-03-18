@@ -11,7 +11,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.zip
@@ -25,6 +24,16 @@ hs_err_pid*
 *.iml
 *.ipr
 *.iws
+<<<<<<< HEAD
 .idea/
 out/
 build/
+=======
+.idea
+
+# Gradle files
+.gradle
+
+build/
+out/
+>>>>>>> be9944d90a66fa972b1b0415475640db6606f50c

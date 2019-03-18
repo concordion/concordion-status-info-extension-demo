@@ -4,19 +4,19 @@
 apply plugin: "java"
 apply plugin: "idea"
 
-wrapper {
-    gradleVersion = "4.2.1"
-}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile 'org.concordion:concordion:2.1.1'
-    testCompile project(':concordion-expected-to-fail-info-extension')
+    testCompile 'org.concordion:concordion:2.2.0'
+    testCompile 'org.concordion:concordion-expected-to-fail-info-extension:+'
 }
 
 test {
     systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
+    testLogging.showStandardStreams = true
 }
