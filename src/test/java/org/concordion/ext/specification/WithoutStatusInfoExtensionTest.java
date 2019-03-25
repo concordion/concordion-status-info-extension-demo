@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(ConcordionRunner.class)
-public class WithoutExpectedToFailInfoExtension {
+public class WithoutStatusInfoExtensionTest {
 
     private int totalAmount = 0;
     private int totalSpent = 0;

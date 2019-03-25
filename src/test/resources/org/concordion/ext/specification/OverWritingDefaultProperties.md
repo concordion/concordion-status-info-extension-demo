@@ -1,4 +1,4 @@
-# Specification With ExpectedToFailInfoExtension
+# Specification for overwriting properties of status-info-extension
 
 ## [Matt Spends his 50 Cents](- "The specification is intentionally wrong... c:status=expectedToFail")
 Given a person Matt has a [50](- "#amount") [cent piece](- "amountTotal(#amount)")

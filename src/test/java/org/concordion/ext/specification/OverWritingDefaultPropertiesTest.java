@@ -1,8 +1,7 @@
 package org.concordion.ext.specification;
 
 import org.concordion.api.extension.Extension;
-import org.concordion.api.extension.Extensions;
-import org.concordion.ext.expectedtofailinfo.ExpectedToFailInfoExtension;
+import org.concordion.ext.statusinfo.StatusInfoExtension;
 import org.concordion.integration.junit4.ConcordionRunner;
 import org.junit.runner.RunWith;
 
@@ -14,10 +13,10 @@ public class OverWritingDefaultPropertiesTest {
     private int totalSpent = 0;
 
     @Extension
-    ExpectedToFailInfoExtension expectedToFail = new ExpectedToFailInfoExtension()
+    StatusInfoExtension statusInfo = new StatusInfoExtension()
             .setHeaderElementSize("h1")
             .setNoteMessage("New Note")
-            .setReasonMessage("New Reason")
+            .setReasonPrefixMessage("New Reason")
             .setStyle("font-weight: normal; text-decoration: none; color: #FFFF00;");
 
     public void amountTotal(String amount) {

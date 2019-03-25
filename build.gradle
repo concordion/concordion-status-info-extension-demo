@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     testCompile 'org.concordion:concordion:2.2.0'
-    testCompile 'org.concordion:concordion-expected-to-fail-info-extension:+'
+    testCompile 'org.concordion:concordion-status-info-extension:+'
 }
 
 test {
