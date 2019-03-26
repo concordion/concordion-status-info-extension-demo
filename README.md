@@ -13,7 +13,7 @@ This [Concordion](www.concordion.org) extension demo gives a visual example of w
 ## Running From Commandline
 
 From the command line, cd to the folder containing a copy of this project, and run
-```./gradlew clean build``` on Unix-based systems, or ```.\gradlew clean build``` on Windows.
+```./gradlew clean build``` on Unix-based systems, or ```gradlew clean build``` on Windows.
 
 This will download the required dependencies, clean the existing project, recompile all source code and run all the tests.
 
@@ -28,4 +28,5 @@ View the Concordion run reports in build/reports/spec/org/concordion/ext/specifi
    \Temp\concordion\org\concordion\ext\specification
    
    The generated html files and can be opened in your browser.
+   
    The tests should pass successfully.
