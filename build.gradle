@@ -1,0 +1,22 @@
+// Luke Pearson
+// 27-03-2018
+
+apply plugin: "java"
+apply plugin: "idea"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.concordion:concordion:2.2.0'
+    testCompile 'org.concordion:concordion-status-info-extension:+'
+}
+
+test {
+    systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
+    testLogging.showStandardStreams = true
+}
