@@ -6,7 +6,9 @@ This [Concordion](www.concordion.org) extension demo gives a visual example of w
 ## Using [Gradle](www.gradle.org)
 
    1. Include the following line in a gradle build file:
+   
    ``` testCompile 'org.concordion:concordion-expected-to-fail-info-extension:+' ```
+   
    2. From a command line opened at the location to which this package has been unzipped, run gradlew clean test
    3. View the Concordion output under the subfolder build/reports/spec/demo
 
