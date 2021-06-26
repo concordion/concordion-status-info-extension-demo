@@ -1,4 +1,4 @@
-# concordion-status-info-extension-demo
+[![Build and Test](https://github.com/concordion/concordion-expected-to-fail-info-extension-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/concordion/concordion-expected-to-fail-info-extension-demo/actions/workflows/ci.yml)
 
 This [Concordion](www.concordion.org) extension demo gives a visual example of what the concordion-status-info-extension does.
 
