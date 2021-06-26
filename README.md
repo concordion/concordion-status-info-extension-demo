@@ -1,4 +1,5 @@
 [![Build and Test](https://github.com/concordion/concordion-status-info-extension-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/concordion/concordion-status-info-extension-demo/actions/workflows/ci.yml)
+[![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 This [Concordion](www.concordion.org) extension demo gives a visual example of what the concordion-status-info-extension does.
 
